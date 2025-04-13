@@ -10,7 +10,7 @@ Run `ip a` to list network interfaces.
 cargo build && sudo ./target/debug/sp00f
 ```
 
-Generate DNS queries with `nslookup example.com @8.8.8.8`
+Generate DNS queries with `dig example.com @8.8.8.8`
 
 ## Windows
 
@@ -22,4 +22,4 @@ After doing the prerequisites listed in [libpnet readme](https://github.com/libp
 $Env:LIB="path_to_Packet.lib_subfolder"; cargo run
 ```
 
-Generate DNS queries with `dig example.com @8.8.8.8`
+Generate DNS queries with `nslookup example.com @8.8.8.8`
